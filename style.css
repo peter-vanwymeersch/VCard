@@ -1,0 +1,40 @@
+#vcard {
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 100px 300px;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+}
+#photo {
+    /*background-color:red;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 20px
+}
+#nom {
+    /*background-color: blue;*/
+    grid-column: 2;
+    grid-row: 1; 
+    padding: 10px;  
+}
+#coordonnees {
+    /*background-color: yellow;*/
+    grid-column: 2;
+    grid-row: 2;
+    padding: 10px;
+}
+.gras {
+    font-weight: bold;
+}
+#prenomnom {
+    font-size: 20px;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
